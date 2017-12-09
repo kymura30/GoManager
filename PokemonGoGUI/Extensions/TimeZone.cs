@@ -10,6 +10,7 @@ namespace PokemonGoGUI.Extensions
         //Ordre: TimeZone Name, Country, Language, POSIX
         private Dictionary<string, Tuple<string, string, string>> TimeZoneids = new Dictionary<string, Tuple<string, string, string>>()
         {
+
            { "Africa/Abidjan", new Tuple<string, string, string>("US", "en", "en-us") },
            { "Africa/Accra", new Tuple<string, string, string>("US", "en", "en-us") },
            { "Africa/Addis_Ababa", new Tuple<string, string, string>("US", "en", "en-us") },
@@ -91,6 +92,7 @@ namespace PokemonGoGUI.Extensions
            { "America/Boa_Vista", new Tuple<string, string, string>("US", "en", "en-us") },
            { "America/Bogota", new Tuple<string, string, string>("US", "en", "en-us") },
            { "America/Boise", new Tuple<string, string, string>("US", "en", "en-us") },
+           { "America/Brasil", new Tuple<string, string, string>("US", "en", "en-us") },
            { "America/Cambridge_Bay", new Tuple<string, string, string>("US", "en", "en-us") },
            { "America/Campo_Grande", new Tuple<string, string, string>("US", "en", "en-us") },
            { "America/Cancun", new Tuple<string, string, string>("US", "en", "en-us") },
